@@ -35,7 +35,7 @@ conda install jupyter
 ```sh
 openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout spark.pem -out spark.pem
 ```
-### password generation with SHA1
+### Password generation with SHA1
 ```sh
 from IPython.lib import passwd
 password = passwd("dhanu@123")
